@@ -1,0 +1,6 @@
+module Pods_moyu {
+  umbrella header "Pods-moyu-umbrella.h"
+
+  export *
+  module * { export * }
+}

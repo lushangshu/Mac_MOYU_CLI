@@ -1,0 +1,37 @@
+PODS:
+  - Alamofire (4.9.1)
+  - Alamofire-Synchronous (4.0.0):
+    - Alamofire (~> 4.0)
+  - SwiftCLI (6.0.0)
+  - SwiftSoup (2.3.2)
+
+DEPENDENCIES:
+  - Alamofire (~> 4.0)
+  - Alamofire-Synchronous (~> 4.0)
+  - SwiftCLI (from `https://github.com/jakeheis/SwiftCLI.git`)
+  - SwiftSoup
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - Alamofire-Synchronous
+    - SwiftSoup
+
+EXTERNAL SOURCES:
+  SwiftCLI:
+    :git: https://github.com/jakeheis/SwiftCLI.git
+
+CHECKOUT OPTIONS:
+  SwiftCLI:
+    :commit: c89f6301e5b93900f9542f0ec083addb2c8c0981
+    :git: https://github.com/jakeheis/SwiftCLI.git
+
+SPEC CHECKSUMS:
+  Alamofire: 85e8a02c69d6020a0d734f6054870d7ecb75cf18
+  Alamofire-Synchronous: eedf1e6e961c3795a63c74990b3f7d9fbfac7e50
+  SwiftCLI: 4d4cf46c77cf3a6b6360dcd3ddff11459da3b193
+  SwiftSoup: f97bc4e988c7729d6457f9642f974c617a6e2510
+
+PODFILE CHECKSUM: 5203e42626ab1b5a2680b9e2cef29ebf929bb049
+
+COCOAPODS: 1.10.1

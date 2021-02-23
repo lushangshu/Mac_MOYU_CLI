@@ -1,0 +1,6 @@
+module SwiftCLI {
+  umbrella header "SwiftCLI-umbrella.h"
+
+  export *
+  module * { export * }
+}
