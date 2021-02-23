@@ -1,4 +1,4 @@
-# Mac_MOYU_CLI 
+# Mac_MOYU_CLI 摸鱼
 
 Mac Moyu Cli is a cli app running on macOS which helps you work with passion and Convenience
 
@@ -12,6 +12,9 @@ Get football point tables
 ![](https://s3.ax1x.com/2021/02/23/yqb6Ej.png)
 Translate Both Chinese and English words
 
+
+If you just want to use the cli app you can download this project and unzip moyu.zip then copy it to /usr/local/bin folder
+如果你只想使用现有功能，请下载项目并打开moyu.zip，将可执行文件moyu拷贝到/usr/local/bin 文件夹中
 
 
 ### Requirements
@@ -30,11 +33,11 @@ Translate Both Chinese and English words
 
 
 ### Known Issues
-This project uses github libs below and should follow the pod version instruction
-import Alamofire //https://github.com/Alamofire/Alamofire
-import SwiftCLI //https://github.com/jakeheis/SwiftCLI#parameters
-import Alamofire_Synchronous //https://github.com/Dalodd/Alamofire-Synchronous   Synchronous requests for Alamofire
-import SwiftSoup //https://github.com/scinfu/SwiftSoup
+#### This project uses github libs below and should follow the pod version instruction
+* import Alamofire //https://github.com/Alamofire/Alamofire
+* import SwiftCLI //https://github.com/jakeheis/SwiftCLI#parameters
+* import Alamofire_Synchronous //https://github.com/Dalodd/Alamofire-Synchronous   Synchronous requests for Alamofire
+* import SwiftSoup //https://github.com/scinfu/SwiftSoup
 
 
 
