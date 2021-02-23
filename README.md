@@ -4,7 +4,7 @@ Mac Moyu Cli is a cli app running on macOS which helps you work with passion and
 
 Mac_MOYU_CLI是一款运行于mac系统的命令行软件
 通过敲击命令方便地工作和娱乐
-
+![](https://mirror-gold-cdn.xitu.io/16b510f1da0f7e521b0?imageView2/1/w/100/h/100/q/85/format/webp/interlace/1)
 ### Requirements
 * Mac OS X 11.0+
 * Xcode 12.4+
