@@ -61,7 +61,7 @@ class moyuCommand: Command {
         }else if championLeague{
             print("欧冠积分")
             let url = "https://m.hupu.com/soccer/ucl/tables"
-            footballTableRequest(url: url)
+            championLeagueRequest()
         }else if laliga{
             print("西甲积分")
             let url = "https://m.hupu.com/soccer/laliga/tables"
@@ -261,6 +261,32 @@ func QsbkRequest(page:String){
             print("error")
         }
     
+}
+
+func championLeagueRequest(){
+    let url = "https://m.hupu.com/soccer/ucl/tables"
+    let response = Alamofire.request(url).response()
+    do{
+        let html = String(data:response.data!,encoding: .utf8)!
+        let doc:Document = try SwiftSoup.parse(html)
+        let groupTables:Elements = try doc.select("table.mod-table")
+        
+        for ele:Element in groupTables.array() {
+            let linkText :String = try ele.text()
+            let trS : Elements = try ele.select("tr.link")
+            print("球队|场次|胜|平|负|进/失|积分\n")
+            for tr:Element in trS.array(){
+                let trText :String = try tr.text()
+                print("\(trText)\n")
+            }
+         
+        
+        }
+        }catch Exception.Error(let type,let message){
+            print(message)
+        }catch{
+            print("error")
+        }
 }
 
 func footballTableRequest(url:String){

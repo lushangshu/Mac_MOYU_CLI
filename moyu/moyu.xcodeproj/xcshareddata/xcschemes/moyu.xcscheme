@@ -52,7 +52,7 @@
       </BuildableProductRunnable>
       <CommandLineArguments>
          <CommandLineArgument
-            argument = "moyu -t &#x5927;"
+            argument = "moyu -c"
             isEnabled = "YES">
          </CommandLineArgument>
       </CommandLineArguments>
